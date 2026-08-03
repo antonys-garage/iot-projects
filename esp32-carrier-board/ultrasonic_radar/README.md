@@ -4,20 +4,6 @@ A feature-rich ultrasonic radar system built on the ESP32 platform, featuring a 
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Hardware Requirements](#hardware-requirements)
-3. [Pin Connections](#pin-connections)
-4. [Libraries Required](#libraries-required)
-5. [Software Architecture](#software-architecture)
-6. [Visual Effects System](#visual-effects-system)
-7. [Configuration](#configuration)
-8. [Code Reference](#code-reference)
-9. [Troubleshooting](#troubleshooting)
-
----
-
 ## Overview
 
 This project transforms an ESP32 and a handful of common components into a cinematic radar display. An HC-SR04 ultrasonic sensor mounted on a servo sweeps 15°–165°, measuring distances and rendering them onto a 160×128 pixel ST7735 TFT screen with:
@@ -199,15 +185,6 @@ Change the rotation value (0–3) to match your physical mounting.
 | Erratic distances | Echo pin noise / low voltage | Add a 100 µF cap near HC-SR04 VCC/GND; ensure 5V supply |
 | Buzzer always on | Passive buzzer used | Replace with **active** buzzer, or swap to `tone()` logic |
 | Slow frame rate | `delay(40)` per angle | Reduce to `delay(20)` for faster sweep (may increase servo jitter) |
-
----
-
-## License & Credits
-
-This project is provided as open-source reference material. It builds upon:
-
-- **Adafruit Industries** — GFX & ST7735 libraries
-- **ESP32Servo** — ESP32 PWM servo implementation
 
 ---
 
