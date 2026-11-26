@@ -7,6 +7,10 @@ on every beat, and a live scrolling pulse graph.
 > **Hardware used:** ESP32-C3 SuperMini, **MAX30102** sensor breakout, and an
 > **external 1.3" I2C OLED (128x64, SH1106)**.
 
+<p align="center">
+  <img src="./esp32_c3_supermini.png" alt="esp32c3_supermini" width="600">
+</p>
+
 ## Features
 
 - Live BPM (averaged over the last 4 beats)
