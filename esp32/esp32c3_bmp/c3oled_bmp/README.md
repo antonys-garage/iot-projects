@@ -7,6 +7,10 @@ beat, and a live pulse waveform.
 > **Hardware used:** ESP32-C3 development board with the **onboard 0.42" (72x40) OLED**
 > and a **MAX30102** sensor breakout. No external display needed.
 
+<p align="center">
+  <img src="./esp32_c3_oled.png" alt="esp32c3_oled" width="600">
+</p>
+
 ## Features
 
 - Live BPM (averaged over the last 4 beats)
